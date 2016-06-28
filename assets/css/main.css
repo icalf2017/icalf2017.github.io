@@ -1356,13 +1356,13 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #8cd1a8;
+		color: #8C001A;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent !important;
-			color: #8cd1a8 !important;
+			color: #8C001A !important;
 			text-decoration: none;
 		}
 
@@ -1921,6 +1921,8 @@
 				width: 4em;
 			}
 
+
+
 		header.major p {
 			margin-top: 0;
 		}
@@ -1972,7 +1974,7 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			box-shadow: inset 0 0 0 2px #8cd1a8;
+			box-shadow: inset 0 0 0 2px #8C001A;
 		}
 
 	.select-wrapper {
@@ -2079,7 +2081,7 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			box-shadow: inset 0 0 0 2px #8cd1a8;
+			box-shadow: inset 0 0 0 2px #8C001A;
 		}
 
 	input[type="radio"] + label:before {
@@ -2546,7 +2548,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #8cd1a8;
+			background-color: #8C001A;
 			border: 0;
 			box-shadow: none;
 			color: #ffffff !important;
@@ -2557,7 +2559,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #9ed8b6;
+				background-color: #8C001A;
 			}
 
 			input[type="submit"].special:active,
@@ -2565,7 +2567,7 @@
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: #7aca9a;
+				background-color: #8C001A;
 			}
 
 			input[type="submit"].special.icon:before,
@@ -2573,7 +2575,7 @@
 			input[type="button"].special.icon:before,
 			button.special.icon:before,
 			.button.special.icon:before {
-				color: #d1ecdc;
+				color: #8C001A;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2728,8 +2730,8 @@
 			}
 
 		#header .container {
-			background: rgba(255, 255, 255, 0.95);
-			bottom: 0;
+			background: rgba(255, 255, 255, 0);
+			top: 70%;
 			left: 50%;
 			margin-left: -17.5em;
 			padding: 2.5em;
@@ -2744,17 +2746,59 @@
 				min-width: 12em;
 			}
 
+/* Main Content */
+
+			#one {
+				background-image: url("../../images/citylights.jpg");
+			}
+
+			#one .content {
+				padding: 2em;
+				color: #61686b;
+			}
+
+			#one h2 {
+				color: coral;
+			}
+
+			#one .major h2:after {
+				background: coral;
+			}
+
+			#one .major h4:after {
+				background: none;
+            }
+
+            #two {
+                background-image: url("../../images/toronto.jpg");
+                background-size: contain;
+            }
+
+            #two .content {
+                padding: 2em;
+                color: #61686b;
+            }
+
+            #two h2 {
+                color: darkcyan;
+            }
+
+            #two .major h2:after {
+                background: darkcyan;
+            }
+
+            #two .major h4:after {
+                background: none;
+            }
+
 /* Footer */
 
 	#footer {
-		min-height: 100vh;
-		padding: 0 0 12em 0;
 		position: relative;
 		text-align: center;
 	}
 
 		#footer .container {
-			padding: 5em 2.5em 3em 2.5em ;
 			background: rgba(255, 255, 255, 0.95);
 			box-shadow: inset 0 1px 0 0 #dddddd;
 		}
@@ -2794,10 +2838,11 @@
 				}
 
 					#footer footer .copyright li:first-child {
-						border-left: 0;
-						margin-left: 0;
-						padding-left: 0;
-					}
+                        border-left: 0;
+                        margin-left: 0;
+                        padding-left: 0;
+                    }
+
 
 /* Large */
 

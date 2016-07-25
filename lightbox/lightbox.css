@@ -6,7 +6,8 @@ body {
 }
 
 #lightbox {
-    width:600px; 
+    max-width:2000px; 
+    max-height: 800px;
     margin:0 auto; /*centers the div horizontally in all browsers (except IE)*/
     background:#fff; 
     text-align:left; /*resets text alignment from body tag */

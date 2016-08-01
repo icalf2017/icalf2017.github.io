@@ -3090,6 +3090,10 @@
 				padding: 3em 1em 1em 1em ;
 			}
 
+				#footer footer a:hover {
+					color: #ffffff !important;
+				}
+
 			#footer footer .copyright {
 				line-height: inherit;
 			}

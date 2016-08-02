@@ -1925,7 +1925,15 @@
 				width: 4em;
 			}
 
-
+				#footer header.major h6:after {
+				background: #dddddd;
+				content: '';
+				display: block;
+				height: 2px;
+				margin: 3em auto 3em auto;
+				position: relative;
+				width: 40em;
+			}
 
 		header.major p {
 			margin-top: 0;
@@ -2163,9 +2171,14 @@
 			margin: 0 0 1em 0;
 		}
 
-			.icon.major:before {
+		.icon.major:before {
 				font-size: 2.5em;
-			}
+		}
+
+		/*.icon.major:hover {
+			margin: -2px;
+		}*/
+
 
 /* Image */
 
@@ -2312,6 +2325,84 @@
 				content: '';
 				display: block;
 			}
+
+			ul.icons-footer {
+			list-style: none;
+			padding: 0;
+			position: relative;
+		}
+
+			ul.icons-footer li {
+				display: block;
+				float: left;
+				padding: 3em 0;
+				width: 25%;
+			}
+
+				ul.icons-footer li h3 {
+					margin: 0;
+				}
+
+
+				ul.icons-footer li:nth-child(2n + 3):before {
+					content: '';
+					display: block;
+					height: 2px;
+					margin-top: -3em;
+					position: absolute;
+					width: 100%;
+				}
+
+				ul.icons-footer li:hover {
+					background: #eaeaea;
+					padding: 3em 0;
+				}
+
+			ul.icons-footer:after {
+				clear: both;
+				content: '';
+				display: block;
+			}
+
+
+			ul.icons-footer {
+			list-style: none;
+			padding: 0;
+			position: relative;
+		}
+
+			ul.icons-foot li {
+				display: block;
+				float: left;
+				padding: 3em 0;
+				width: 100%;
+			}
+
+				ul.icons-foot li h3 {
+					margin: 0;
+				}
+
+
+				ul.icons-foot li:nth-child(2n + 3):before {
+					content: '';
+					display: block;
+					height: 2px;
+					margin-top: -3em;
+					position: absolute;
+					width: 100%;
+				}
+
+				ul.icons-foot li:hover {
+					background: #eaeaea;
+					padding: 3em 0;
+				}
+
+			ul.icons-foot:after {
+				clear: both;
+				content: '';
+				display: block;
+			}
+
 
 		ul.actions {
 			cursor: default;
@@ -2797,7 +2888,7 @@
             }
 
             #three {
-                background-image: url("../../gallery/oceancityNJ.JPG");
+                background-image: url("../../gallery/oceancityNJ.jpg");
                 background-size: cover;
             }
 
@@ -2807,16 +2898,34 @@
             }
 
             #three h2 {
-                color: lightblue;
+                color: #8FD8D8;
             }
 
             #three .major h2:after {
-                background: lightblue;
+                background: #8FD8D8;
             }
 
             #three .major h4:after {
                 background: none;
             }
+
+            #footer {
+                background-image: url("../../images/bench.jpg");
+                background-size: cover;
+            }
+
+            #footer h2 {
+                color: #238E68;
+            }
+
+            #footer .major h2:after {
+                background: #238E68;
+            }
+
+            #footer .major h4:after {
+                background: none;
+            }
+
 
 /* Footer */
 
